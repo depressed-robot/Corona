@@ -305,6 +305,7 @@ img{
 p {
     color: rgb(61, 75, 105);
     font-weight: 500;
+    line-height: 1.5;
 }
 
 
@@ -437,11 +438,10 @@ ul {
     margin-bottom: 0;
 }
 
-.questions-btn {
+.questions-btn{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
-    margin: -0.5rem;
+    margin: -8px;
     padding-top: 60px;
 }
 
@@ -456,4 +456,78 @@ ul {
 }
 
 
-section
+.symptoms-section {
+    padding: 100px 0;
+}
+
+.symptoms-card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 4px;
+    height: calc(100% - 30px);
+    margin-top: 30px;
+    box-shadow: 0px 5px 40px 0px rgba(70, 86, 117, 0.08);
+}
+
+
+.symptoms-card-img {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 80px;
+    right: 30px;
+    top: -40px;
+}
+
+.symptoms-card-content {
+    padding: 20px 20px 22px;
+}
+
+.symptoms-card-content h5 {
+    margin-bottom: 11px;
+    color: #2a81ea;
+    padding: 0 25px;
+
+}
+
+.symptoms-card-content p {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 25px;
+}
+
+.stay-at-home{
+    margin-top: 40px;
+}
+
+.stay-at-home .warning {
+    display: flex;
+}
+
+.stay-at-home .warning .fa-triangle-exclamation {
+    font-size: 35px;
+    width: 60px;
+    flex-shrink: 0;
+    color: #7fb3f2;
+}
+
+.stay-at-home .warning p {
+    font-style: italic;
+}
+
+.stay-at-home .warning p strong {
+    color: #2a81ea;
+    font-style: normal;
+}
+
+
+.warning-btn a {
+    font-family: 'Roboto', sans-serif;
+    padding: 11px 28px;
+}
+
+.warning-btn a .fa-clipboard-question {
+    padding: 0 10px 3px 0;
+}
+
+
+
